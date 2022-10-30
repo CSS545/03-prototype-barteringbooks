@@ -3,6 +3,8 @@ import {View,Text,Image,ImageBackground,TouchableOpacity} from 'react-native';
 import {ScrollView,TextInput} from 'react-native-gesture-handler';
 import Icon from '@expo/vector-icons/Entypo';
 import Posts from '../screens/Posts'
+import { Entypo } from '@expo/vector-icons'; 
+
 
 
 export default class Home extends React.Component{
@@ -35,8 +37,7 @@ export default class Home extends React.Component{
                       <View style={{
                           width:"50%"
                       }}>
-                          <Image source={require('../images/Untitled.png')}
-                            style={{width:20,height:20}}/>
+                        <Entypo name="book" size={30} color="black" />
                       </View>
                       <View style={{
                           width:"50%",
@@ -133,7 +134,7 @@ export default class Home extends React.Component{
                   }}>
                       <Posts
                         onPress={()=>this.props.navigation.navigate('Detail')}
-                        name="Max Bator"
+                        name="JFK"
                         profile={require('../images/p1.jpg')}
                         photo={require('../images/5.jpg')}
                       />
@@ -173,7 +174,7 @@ export default class Home extends React.Component{
 
                       <Posts
                         onPress={()=>this.props.navigation.navigate('Detail')}
-                        name="Erka Berka"
+                        name="XYZ"
                         profile={require('../images/p2.jpg')}
                         photo={require('../images/6.jpg')}
                       />
@@ -185,7 +186,7 @@ export default class Home extends React.Component{
                   }}>
                       <Posts
                         onPress={()=>this.props.navigation.navigate('Detail')}
-                        name="Max Bator"
+                        name="ABC"
                         profile={require('../images/p1.jpg')}
                         photo={require('../images/3.jpg')}
                       />
