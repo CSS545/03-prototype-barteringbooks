@@ -1,7 +1,9 @@
 import React from 'react';
-import {View,Text,Image,ImagBackground, ImageBackground} from 'react-native';
+import {View,Text,Image,ImagBackground, ImageBackground, Button} from 'react-native';
 import Icon from "@expo/vector-icons/Entypo"
 import {TouchableOpacity} from 'react-native-gesture-handler';
+import { AntDesign } from '@expo/vector-icons'; 
+
 
 
 export default class Posts extends React.Component{
@@ -48,16 +50,22 @@ export default class Posts extends React.Component{
                         }}>
                             2 mins ago
                         </Text>
-                    </View>
+                        <Button
+                                 onPress={onPress}
+                                 title="Donate/Exchange/Sell"
+                                 color="#044244"
+                                size={25}
+                                
+                                />
+                    </View> 
+    
                     <View style={{
-                        width:"20%",
+                        width:"30%",
                         alignItems:"flex-end"
                     }}>
-                        <Icon
-                            name="sound-mix"
-                            color="#044244"
-                            size={20}
-                        />
+                        
+                           
+                           
                     </View>
                </View>
 
@@ -93,12 +101,11 @@ export default class Posts extends React.Component{
                                     backgroundColor:"#e8e8e8"
                                 }}
                             >
-                                <Icon name="forward"
-                                color="#044244"
-                                size={20}/>
+                                <AntDesign name="idcard" size={20} color="#044244" />
+                                
                             </TouchableOpacity>
-
-
+                            
+                                
                             <TouchableOpacity
                                 onPress={this.onLike}
                                 style={{
