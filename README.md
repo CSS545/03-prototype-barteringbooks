@@ -18,4 +18,3 @@ a) Strive to provide educational opportunities to as many people as possible by 
 b) Passing the sense of community: Users tend to be educational-related, potentially providing a platform to make friends or mentors.
 
 c) Global recognition: The app can be delivered to countries outside of the United States without legal issues, making it possible to earn global credit, passing the positive value to even more places.
-![image](https://user-images.githubusercontent.com/115040475/198942203-132d1b1d-30c6-44fe-a8d2-36476222256b.png)
