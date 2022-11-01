@@ -201,15 +201,16 @@ export default class Detail extends React.Component{
                                 alignItems:"flex-end"
                             }}>
                                     <TouchableOpacity style={{
-                                        width:40,
+                                        width:90,
                                         alignItems:"center",
                                         justifyContent:"center",
-                                        marginTop:25,
+                                        marginTop:5,
                                         borderRadius:10,
-                                        padding:8,
-                                        marginRight:20,
-                                        backgroundColor:"#006bb3"
+                                        padding:1,
+                                        marginRight:10,
+                                        backgroundColor:"skyblue"
                                     }}>
+                                        <Text>Upload Books</Text>
                                             <Icon
                                                 name="edit"
                                                 size={20}
@@ -237,7 +238,7 @@ export default class Detail extends React.Component{
                             </Text>
                         </View>
                     </View>
-                        
+                
                     
                     <View style={{
                         height:180,
