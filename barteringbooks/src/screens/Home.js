@@ -4,6 +4,7 @@ import {ScrollView,TextInput} from 'react-native-gesture-handler';
 import Icon from '@expo/vector-icons/Entypo';
 import Posts from '../screens/Posts'
 import { Entypo } from '@expo/vector-icons'; 
+import Menu from './Menu';
 
 
 
@@ -40,9 +41,14 @@ export default class Home extends React.Component{
                         <Entypo name="book" size={30} color="black" />
                       </View>
                       <View style={{
+                          flexDirection:"row",
                           width:"50%",
                           alignItems:"flex-end",
                       }}>
+                        <Menu
+                            onPress={()=>this.props.navigation.navigate('Menu')}
+                            name='Menu'
+                            />
                           <Icon name = "dots-two-vertical"
                             size={22}
                             color="#d2d2d2"
@@ -50,6 +56,8 @@ export default class Home extends React.Component{
                                 marginRight:-7,
                                 marginTop:7
                             }}/>
+                            
+
                       </View>
                   </View>
 
@@ -84,7 +92,24 @@ export default class Home extends React.Component{
                           size={15}
                           color="#9ca1a2"/>
                 </View>
+                <TextInput
+                    placeholder="Location..."
+                    style={{
+                        flexDirection:"row",
+                        paddingHorizontal:20,
+                        fontFamily:"Medium",
+                        fontSize:20,
+                        width:"90%",
+                        color:'black',
+                        fontFamily:'Bold',
+                        borderRadius:20,
+                        borderColor:"#9ca1a2",
+                        borderWidth:1.0,
+                        alignItems:"center",
+                        marginTop:10
 
+                    }}
+                />
               </View>
 
               <View style={{
