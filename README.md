@@ -1,6 +1,6 @@
 # Team: Sheng Wang, Karan Bhatt
 
-This is an updated version of the final project. Recommand  typing **npm i**, **expo start** and scanning the QR code using the expo app on a cellphone to use.
+This is an updated version of the final project. Recommend typing **npm i**, **expo start** and scanning the QR code using the expo app on a cellphone to use.
 
 Users will be able to choose the used book they want to donate or sell at a lower price from the category, set up the name of the book, price, provide a brief description, and upload images.
 
