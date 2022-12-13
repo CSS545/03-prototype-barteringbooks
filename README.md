@@ -4,6 +4,35 @@
 
 This is the final version of our application. Recommend typing **npm i**, **expo start** and scanning the QR code using the expo app on a cellphone to use.
 
+## Final Submission questions and answers.
+
+1. Does it accomplish the stated objective? (10 points)
+Ans: Yes. it accomplishes the stated objective. Users are able to register and edit their accounts. Meanwhile, Users could also edit and post their used books, and also donate their used books for free or at a lower price by subjects. The Chatbox feature provides an opportunity for them to talk with each other to find a mentor or negotiate the price. People who need books for different purposes could find their desired books accordingly. 
+
+
+2.Does it deliver on the “value proposition”? (10 points)
+Ans: Yes, it delivers on the “value proposition.” As we strive to help low-income family students to get affordable used books from day one, our app follows the rule of “value over features.”
+
+
+3.Does it respect user privacy/is it secure? (10 points)
+Ans: Yes, the user data are encrypted using bcrypt functionality of reactnative and stored in data base.
+
+
+4.Does it have proper app lifecycle/state management? (10 points)
+Ans: Yes, it does have proper app lifecycle/state management. 
+
+5.Does it address at least three additional challenges (other than privacy and state management) unique to mobile app development? (15 points)
+Ans: Yes, following challenges are addressed in our app other than privacy and state management,*
+ *1) The challange of cross platform is addressed as we have made the app in react-native.*
+ *2) The app interacts with web service like firebase, google api's (google accounts, gmails, etc).*
+ *3) The app uses various permissions like storage, location for better functioning of app.*
+ *4) Being a cross platfrom app, it solves the problem of form factor and can be viewed in different mobiles uniformly.*
+
+6.Does it have a good user experience? (5 points)
+Yes, the user experience is good. All the features are self-explanatory and without unnecessary confusion.
+
+Project Details:-
+
 ## Summary of Project
 *This app provides a platform to low-income family students and anyone who needs books for different purposes. Those who want to gid rid of their used books will have an opportunity to donate them for free or sell them at a lower price. And people who need the book would have a chance to get it for free or buy it at a lower price, and further make study mates or find mentors since the needs of the same book tend to have the related study area. Location services will be enabled to support the local meet-ups.*
 
